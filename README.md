@@ -3,7 +3,7 @@
 
 <h1>Hello there! My name is Haibin (Uchiha)! 😁 <img src="https://media.tenor.com/6IFqFzfiC5IAAAAC/naruto-itachi.gif" width="700px" height="400px" /></h1>
 
-This is assignment in week 4 on Full-Stack Engineering - Frontend Infra **(Deployment,Networking,Domain,Workflow).**
+This is an intermediate assignment in week 4 on Full-Stack Engineering - Frontend Infra **(Deployment,Networking,Domain,Workflow).**
 
 ## Deploy Link
 
@@ -21,6 +21,7 @@ mkdir folder_name
 ```
 
 ### Open folder with VS Code
+You can right-click on the "new empty folder" and choose Open with Code
 ### Download Repositories
 
 Download the repository onto your computer using the `git clone` command. The repository url can be seen in the desired repository.
@@ -64,91 +65,10 @@ Submit changes to the repository
 ```
 git push origin <branch name>
 ```
+<br>
+<br>
 
-### Branching
-
-Branches are used to develop new features or change source code without impacting other branches. The master branch is the default branch of a repository. Use another branch to do development and merge it back into the master branch.
-
-#### View the branches contained in the local repository
-
-```
-git branch
-```
-
-#### Create a new branch in the local repository and send it to the remote repository
-
-**Make new Branch**
-
-```
-git branch <new branch name>
-```
-
-**Active the new branch**
-
-```
-git checkout <new branch name>
-```
-
-**Confirm file additions or changes**
-
-```
-git commit -m "<commit messages>"
-```
-
-**Submit changes to the repository**
-
-```
-git push origin <new branch name>
-```
-
-#### Merges another branch into the active branch
-
-**Activate the desired branch**
-
-```
-git checkout <branch name active>
-```
-
-**Update branch local**
-
-```
-git pull origin <branch name active>
-```
-
-**Merger File**
-
-```
-git merge <the name of the branch to be merged>
-```
-
-**Check and resolve conflicts due to merging branches**
-
-```
-git status
-```
-
-**Confirm and upload merging branches**
-
-```
-git commit -m "<commit messages>" -a
-git push origin <branch name active>
-```
-
-#### Delete Branch
-
-**On the remote repository**
-
-```
-git push origin :<branch name>
-```
-
-**In local repository**
-
-```
-git branch <nama branch> -d
-```
-
-## Deploy Documention 💻⚙
+# Deploy Documention 
 
 ### Buy Domain
 
@@ -283,5 +203,3 @@ Now you can run your website.
 I hope the steps above can help you.
 
 Thank You.
-
-<img src="https://gifdb.com/images/high/tanjiro-demon-slayer-smile-ug5qxtabnbi4yebd.gif"  width="465px" height="262px"/>

@@ -1,0 +1,422 @@
+@font-face {
+    font-family: Naruto-Sans;
+    src: url(fonts/njnaruto.ttf);
+}
+@font-face {
+    font-family: Naruto-Sans;
+    src: url(fonts/njnaruto.ttf);
+    font-weight: bold;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+header {
+    position: fixed;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid rgb(207, 100, 29);
+    z-index: 2;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+#hamburger {
+    filter: invert(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 18px;
+}
+.branding {
+    display: flex;
+    align-items: center;
+}
+#branding-logo {
+    margin: 10px;
+    height: 50px;
+}
+.spinning {
+    height: 50px;
+    width: 50px;
+}
+#logo-img {
+    width: 50px;
+    height: 50px;
+    transition: transform 2s ease;
+    z-index: 1;
+}
+#logo-img:hover {
+    transition: transform 2s;
+    transform: translateX(230px);
+    /* transform: rotate(-240deg); */
+}
+
+#branding-text > p > b {
+    font-size: 17/16rem;
+    font-family: Naruto-Sans, "Open Sans", sans-serif;
+}
+/* #branding-text:hover {
+    transition: transform 2s;
+    transform: translateX(-50px);
+} */
+.header-right {
+    margin-right: 10px;
+}
+nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 3px; 
+}
+nav > ul > li > a {
+    color:  rgb(34, 34, 34);
+    text-decoration: none;
+}
+nav > ul > li > a:hover {
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li:hover {
+    text-decoration: none;
+    color: white;
+    background-color: firebrick;
+    transition: 0.8s;
+}
+.icon {
+    display: flex;
+}
+#icon-logo #icon-title {
+    height: 32px;
+    width: 32px;
+}
+.desktop-nav {
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
+/* Main */
+main {
+    margin: 90px auto 0px auto;
+}
+/* Heroku */
+.heroku {
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(Sharingan-pixabay.webp);
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-position: center;
+    background-size: 500px 300px;
+    border-top: 5px solid rgb(207, 100, 29);
+    border-bottom: 5px solid rgb(207, 100, 29);
+ }
+ .heroku p {
+    font-size: 20px;
+ }
+ .heroku-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px #b10303;
+    left: 3000px;
+    animation: slideIn 2s forwards;
+ }
+ .heroku-slide > h1 {
+    font-size: 32px;
+ }
+ @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+ /* MS Designs */
+.mangekyo-designs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.mangekyo-photos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.whose-eyes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whose-eyes figcaption {
+    font-size: 20px;
+}
+.them-eyes {
+    border-radius: 100%;
+    transition: transform 2s;
+    animation-name: spining;
+    animation-duration: 2s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframe spinning {
+    0% {transform: rotate(-240deg)}
+    50% {transform: scale(0.7)}
+    100% {transform: rotate(0deg)}
+}
+.them-eyes:hover {
+    transition: 2s;
+    transform: rotate(-360deg) scale(0.7);
+    animation-name: spinning;
+}
+/* MS Facts */
+.mangekyo-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-top: 5px solid rgb(207, 100, 29);;
+    border-bottom: 5px solid rgb(207, 100, 29);;
+}
+.facts-grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(3, 240px);
+    gap: 24px;
+    padding: 0 24px 24px 24px;
+    border: 2px solid black
+}
+
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;
+    overflow: hidden;
+    background-color: #b10303;
+    border-radius: 5px;
+}
+.item-1:hover {
+    transform: scale(1.1);
+}
+.item-1 img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+
+.item-2 {
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.item-2:hover {
+    transform: scale(1.1);
+}
+.item-2 img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+.item-3 {
+    width: 100%;
+    overflow: hidden;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.item-3:hover {
+    transform: scale(1.1);
+}
+.item-3 img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+.item-4 {
+    width: 100%;
+    overflow: hidden;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+.item-4:hover {
+    transform: scale(1.1);
+}
+.item-4 img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+.item-5 {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 5px;
+}
+.item-5:hover {
+    transform: scale(1.1);
+}
+.item-5 img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+.item-6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.item-6:hover {
+    transform: scale(1.1);
+}
+.item-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: inherit;
+}
+.facts-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mangekyo-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer&Form */
+footer {
+    border-top: 5px solid rgb(207, 100, 29);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding-bottom: 20px;
+}
+#form > h2 {
+    margin-top: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: block;
+}
+.personal-data {
+    margin;
+}
+.personal-data > legend {
+    font-size: 1.2rem;
+    color: rgb(207, 100, 29);
+}
+.voting {
+    margin-top: 20px;
+}
+.voting > legend {
+    font-size: 1.2rem;
+    color: rgb(207, 100, 29);
+}
+#submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+    background-color: firebrick;
+    width: 100%;
+}
+#submit-btn:hover {
+    background-color: black;
+    transition: 0.8s;
+}
+
+/* for tablet and phone */
+@media only screen and (max-width: 768px) {
+    body {
+    width: 100%;
+    margin: 0 auto;
+    }
+    .mangekyo-photos {
+        width: 100%;
+        justify-content: space-around;
+        display:flex;
+        flex-direction: column;
+    }
+    .facts-grid-container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 720px 240px 240px 240px;
+        gap: 24px;
+        padding: 0 24px 24px 24px;
+        border: 2px solid black;
+    }
+    .item-1 {
+        grid-column: 1/3 span;
+        grid-row: 1/3 span;
+        grid-row-end: 4;
+        width: 100%;
+        overflow: hidden;
+        background-color: #b10303;
+        border-radius: 5px;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .ms-video {
+        width: 425px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .ms-video {
+        width: 375px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .ms-video {
+        width: 320px;
+    }
+}
