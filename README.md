@@ -74,15 +74,15 @@ git push origin <branch name>
 
 **Step 1 :** First you have to buy a domain at [Niagahoster](https://www.niagahoster.co.id/)
 
-![Alt text](img/niaga_front.png)
+![Alt text](assets/Screenshot%20(285).png)
 
 **Step 2 :** On the domain name, it's up to you to put the domain name according to your own needs.
 
-![niaga_domain](img/niaga_domain.png)
+![niaga_domain](assets/Screenshot%20(286).png)
 
 **Step 3 :** After choosing a domain name is done, make a payment.
 
-![niaga_dashboard](img/niaga_dashboard.png)
+![niaga_dashboard](assets/Screenshot%20(287).png)
 
 Now your domain arleady done.
 
@@ -90,7 +90,7 @@ Now your domain arleady done.
 
 **Step 1 :** Open **[Netlify](https://app.netlify.com/)** and Login.
 
-![netlify_homepage](img/netlfliy_homepage.png)
+![netlify_homepage](assets/Screenshot%20(291).png)
 
 **Step 2 :** Go to tab **"Team Overiew"**
 
