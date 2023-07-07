@@ -98,15 +98,15 @@ Now your domain arleady done.
 
 **Step 3 :** Click **"Add new Site"**
 
-![netlify_dashboard](img/net_dashboard.jpg)
+![netlify_dashboard](assets/Screenshot%20(291).png)
 
 **Step 4 :** Click **"Import an existing project"**
 
-![netlify_save](img/net_save.png)
+![netlify_save](assets/Screenshot%20(316).png)
 
 **Step 5 :** Select your repository from Github
 
-![netlify_repo](img/net_repo.jpg)
+![netlify_repo](assets/Screenshot%20(293).png)
 
 **Step 6 :** Pick an Owner
 
@@ -114,19 +114,19 @@ Now your domain arleady done.
 
 **Step 8 :** Click **Deploy Site**
 
-![netlify_deploy](img/net_deploy.png)
+![netlify_deploy](assets/Screenshot%20(294).png)
 
 **Step 9 :** After you deploy, you will get the site name
 
 **Step 10:** Click **Domain Settings**
 
-![netlify_domain_setting](img/net_domain.png)
+![netlify_domain_setting](assets/Screenshot%20(295).png)
 
 **Step 11:** Choose the site name and Edit the site name
 
 **Step 12:** Fill the site name and Click **Save**
 
-![netlify_changesite](img/net_changesite.png)
+![netlify_changesite](assets/Screenshot%20(297).png)
 
 ### Custom DNS
 
@@ -136,11 +136,11 @@ After you have done **Buy Domain & Set Up Netlify**, now we set up the Custom DN
 
 **Step 2:** Enter the Domain that you bought in **Niagahoster**
 
-![cloud_domain](img/cloud_domain-2.png)
+![cloud_domain](assets/Screenshot%20(301).png)
 
 **Step 3 :** Go To DNS Tab - Click "Add Record"
 
-![dnsrecord_setup](img/cloud_addrecord.png)
+![dnsrecord_setup](assets/Screenshot%20(305).png)
 
 **Step 4 :** Choose the type to **"CNAME"**
 
@@ -148,23 +148,23 @@ After you have done **Buy Domain & Set Up Netlify**, now we set up the Custom DN
 
 **Step 6 :** Copy and Paste your **Netlify** Subdomain to Target & Click **Save**
 
-![dnsrecord_newrecord](img/cloud_dns.png)
+![dnsrecord_newrecord](assets/Screenshot%20(305).png)
 
 **Step 7:** Go To **"Domain Settings"** on **Netlify**.
 
-![net_domainset](img/net_domainset.png)
+![net_domainset](assets/Screenshot%20(306).png)
 
 **Step 8:** Click **Add a domain**.
 
-![net_adddomain](img/net_adddomain.png)
+![net_adddomain](assets/Screenshot%20(307).png)
 
 **Step 9::** Enter your Custom Domain Name that you bought at **Niagahoster** and Click **Verify**.
 
-![net_setupdomain](img/net_setupdomain.png)
+![net_setupdomain](assets/Screenshot%20(308).png)
 
 **Step 10 :** Done, your domain is now the main domain.
 
-![primary_domain](iomg/../img/primary_domain.png)
+![primary_domain](assets/Screenshot%20(308).png)
 
 ### Change Your Nameservers
 
@@ -172,33 +172,31 @@ Don't forget change your Nameserver value
 
 **Step 1 :** Go To **Niagahoster** and Click **Kelola Layanan**.
 
-![niaga_dashboard](img/niaga_dashboard.png)
+![niaga_dashboard](assets/Screenshot%20(309).png)
 
 **Step 2 :** Go to tab Overview Domain and Click **Change Nameserver**.
 
-![niaga_change](img/niaga_change.png)
+![niaga_change](assets/Screenshot%20(311).png)
 
 **Step 3 :** Go to **Cloudfare** DNS Tab and see Cloudfare Nameserver and copy server values.
 
-![cloud_value](img/cloud_value.png)
+![cloud_value](assets/Screenshot%20(312).png)
 
 **Step 4 :** The value copied on **Cloudflare**, paste the value in Update Nameserver on **Niagahoster** and Click **Save**.
 
-![niaga_update](img/niaga_update.png)
+![niaga_update](assets/Screenshot%20(312).png)
 
 Done Now Your Value Nameserver arleady change.
 
-![niaga_value](img/niaga_value.png)
+![niaga_value](assets/Screenshot%20(315).png)
 
 ### Website Launch
 
 After we have done all the steps above, we wait for the nameserver status to be **active** on **Cloudflare**.
 
-![cloud_active](img/cloud_active.png)
+![cloud_active](assets/Screenshot%20(315).png)
 
 or you can get notification in email, if server arleady **active**.
-
-![cloud_email](img/cloud_email.png)
 
 Now you can run your website.
 
