@@ -8,6 +8,7 @@ This is an intermediate assignment in week 4 on Full-Stack Engineering - Fronten
 ## Deploy Link
 
 https://www.haikalbintang.site/
+https://haikal-bintang.netlify.app/
 
 ## How to clone repo until running your computer
 
