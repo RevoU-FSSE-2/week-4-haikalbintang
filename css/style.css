@@ -416,6 +416,10 @@ textarea {
     }
 }
 @media only screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+        overflow-x: hidden;
+    }
     .ms-video {
         width: 375px;
     }
