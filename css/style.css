@@ -345,9 +345,6 @@ textarea {
   margin: 8px 0;
   display: block;
 }
-.personal-data {
-    margin;
-}
 .personal-data > legend {
     font-size: 1.2rem;
     color: rgb(207, 100, 29);
@@ -411,6 +408,9 @@ textarea {
         max-width: 425px;
         overflow-x: hidden;
     }
+    .desktop {
+        display: none;
+    }
     .ms-video {
         width: 425px;
     }
@@ -420,6 +420,9 @@ textarea {
         max-width: 375px;
         overflow-x: hidden;
     }
+    .desktop {
+        display: none;
+    }
     .ms-video {
         width: 375px;
     }
@@ -427,5 +430,8 @@ textarea {
 @media only screen and (max-width: 320px) {
     .ms-video {
         width: 320px;
+    }
+    .desktop {
+        display: none;
     }
 }
