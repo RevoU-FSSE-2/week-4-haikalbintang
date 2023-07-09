@@ -159,6 +159,7 @@ main {
       transform: translateX(0);
     }
 }
+
  /* MS Designs */
 .mangekyo-designs {
     display: flex;
@@ -188,11 +189,6 @@ main {
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
-}
-@keyframe spinning {
-    0% {transform: rotate(-240deg)}
-    50% {transform: scale(0.7)}
-    100% {transform: rotate(0deg)}
 }
 .them-eyes:hover {
     transition: 2s;
