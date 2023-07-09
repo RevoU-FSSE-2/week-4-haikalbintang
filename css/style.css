@@ -151,14 +151,14 @@ main {
  .heroku-slide > h1 {
     font-size: 32px;
  }
- @keyframes slideIn {
+ /* @keyframes slideIn {
     from {
       transform: translateX(100%);
     }
     to {
       transform: translateX(0);
     }
-}
+} */
 
  /* MS Designs */
 .mangekyo-designs {
