@@ -134,6 +134,10 @@ main {
  }
  .heroku p {
     font-size: 20px;
+    text-align: center;
+ }
+ h1, h2 {
+    text-align: center;
  }
  .heroku-slide {
     display: flex;
@@ -154,7 +158,7 @@ main {
     to {
       transform: translateX(0);
     }
-  }
+}
  /* MS Designs */
 .mangekyo-designs {
     display: flex;
